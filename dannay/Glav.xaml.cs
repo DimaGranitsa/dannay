@@ -94,7 +94,7 @@ namespace dannay
             Random rand = new Random();
             for (int i = 0; i < 6; i++)
             {
-                string[] menname = { "Павел", "lexa", "artem", "lom", "wd", "wdwww", "wdwdwdwdwd" };
+                string[] menname = { "Павел", "lexa", "artem", "lom", "wd", "wdwww", "wdwdwdwdwd"};
                 string namem = menname[rand.Next(0, 3)];
                 lov.Text += namem.ToString() + "\n";
             }
